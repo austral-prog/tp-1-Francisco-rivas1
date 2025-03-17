@@ -12,12 +12,12 @@
 #El valor de 13 más -0.5 es: 12.5
 
 
-a= int(input("Seleccione un valor para a: "))
-b= int(input("Seleccione un valor para b: "))
-c= a+b
-print(c)
-print(a-b)
-print(c/2)
-print(a//b)
-print(a%b)
-print(a/b)
+def math():
+  a= 57
+  b= 7
+  print(a+b)
+  print(a-b)
+  print((a+b)/2)
+  print(a//b)
+  print(a%b)
+  print(a/b)
